@@ -1,0 +1,54 @@
+/* Calculator.css */
+
+.calculator-container {
+    width: 300px; /* Set a fixed width for the calculator */
+    margin: 50px auto; /* Center the calculator */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.display {
+    background-color: #222; /* Dark background for display */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around the display */
+    border-top-left-radius: 10px; /* Rounded corners */
+    border-top-right-radius: 10px; /* Rounded corners */
+    text-align: right; /* Right-align the text */
+}
+
+.input {
+    font-size: 2rem; /* Large font size for input */
+}
+
+.result {
+    font-size: 1.5rem; /* Smaller font size for result */
+    opacity: 0.7; /* Slightly transparent */
+}
+
+.buttons {
+    display: grid; /* Use grid layout for buttons */
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 10px; /* Space between buttons */
+    padding: 20px; /* Padding around buttons */
+}
+
+button {
+    padding: 20px; /* Padding inside buttons */
+    font-size: 1.5rem; /* Font size for button text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    background-color: #3498db; /* Blue background for buttons */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+button:active {
+    background-color: #1c598a; /* Even darker blue when pressed */
+}
